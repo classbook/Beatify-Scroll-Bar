@@ -1,0 +1,39 @@
+/* 
+	Created on : Jun 21, 2014, 12:05:39 AM
+	Author     : kishore
+*/
+
+$WIDTH : 200px;
+.scrollable{
+	overflow : hidden;
+	width : $WIDTH;
+	height : 200px;
+	background-color : #e4e4e4;
+	position: relative;
+	.scrollBar{
+		border-radius : 20px;
+		width : 10px;
+		background-color : #291e76;
+		position : absolute;
+		height : 100%;
+		top : 0px;
+		right : 0px;
+		.ref{
+			position : absolute;
+			top : 20px;
+			height : 30px;
+			border-radius : 20px;
+			width : 100%;
+			background-color : #482eed;
+		}
+	}
+	.scrollArea{
+		position : relative;
+		height : 100%;
+		overflow-y : scroll;
+		margin-right : -30px;
+		.content{
+			width : $WIDTH - 10px;
+		}
+	}
+}

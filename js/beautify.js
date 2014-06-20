@@ -1,19 +1,21 @@
 /* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Beautify Scroll Bar JS
+ * Created on : Jun 21, 2014, 12:05:39 AM
+ * Author     : kishore
  */
 
 
 (function($){
 	var settings = $.extend({
-		autoHide	:	true,
-		ScrollBarCss:	"scrollable"
+		autoHide	:	false,
+		width		:	null,
+		height		:	null
 	}, options);
 
 	$.fn.beautifyScrollBar = function(){
 		return this.each(function(){
 			/*Beautify CSS Functinality goes here!!!*/
 		});
+
 	};
 }(jQuery));
