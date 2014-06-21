@@ -18,7 +18,6 @@
     right: 0px; }
     .scrollable .scrollBar .ref {
       position: absolute;
-      top: 20px;
       height: 30px;
       border-radius: 20px;
       width: 100%;
